@@ -5,8 +5,8 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/zellion-website/",
   server: {
+    base: "/zellion-website/",
     host: "::",
     port: 8080,
   },
