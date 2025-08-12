@@ -17,30 +17,30 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 15% 20%;
 
-    /* Primary - Deep Real Estate Blue */
-    --primary: 217 91% 15%;
+    /* Primary - Vibrant Aqua */
+    --primary: 187 89% 35%; /* #0ba1ad */
     --primary-foreground: 0 0% 98%;
-    --primary-light: 217 91% 25%;
-    --primary-glow: 217 100% 50%;
+    --primary-light: 187 70% 50%; /* #27c3d1 */
+    --primary-glow: 187 89% 75%; /* #5ee7f5 */
 
     /* Secondary - Warm Gold for Premium Feel */
-    --secondary: 45 95% 58%;
+    --secondary: 36 94% 58%; /* #f7b32b */
     --secondary-foreground: 220 15% 20%;
-    --secondary-light: 45 95% 68%;
+    --secondary-light: 36 100% 75%; /* #ffd580 */
 
     /* Neutral Grays */
-    --muted: 220 13% 96%;
+    --muted: 187 40% 95%; /* #eaf6f6 */
     --muted-foreground: 220 15% 45%;
 
-    --accent: 217 91% 94%;
-    --accent-foreground: 217 91% 15%;
+    --accent: 14 89% 54%; /* #f6511d */
+    --accent-foreground: 0 0% 98%;
 
     /* Success Green for Sold/Available */
-    --success: 142 71% 45%;
+    --success: 162 44% 46%; /* #43aa8b */
     --success-foreground: 0 0% 98%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 14 89% 54%; /* #f6511d */
+    --destructive-foreground: 0 0% 98%;
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
@@ -49,13 +49,30 @@ All colors MUST be HSL.
     /* Real Estate Specific Colors */
     --luxury: 262 83% 58%;
     --luxury-foreground: 0 0% 98%;
-    
+
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(217 91% 15%), hsl(217 91% 25%));
-    --gradient-secondary: linear-gradient(135deg, hsl(45 95% 58%), hsl(45 95% 68%));
-    --gradient-hero: linear-gradient(135deg, hsl(217 91% 15%) 0%, hsl(217 91% 25%) 50%, hsl(45 95% 58%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%) 0%, hsl(220 13% 98%) 100%);
-    
+    --gradient-primary: linear-gradient(
+      135deg,
+      hsl(217 91% 15%),
+      hsl(217 91% 25%)
+    );
+    --gradient-secondary: linear-gradient(
+      135deg,
+      hsl(45 95% 58%),
+      hsl(45 95% 68%)
+    );
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(217 91% 15%) 0%,
+      hsl(217 91% 25%) 50%,
+      hsl(45 95% 58%) 100%
+    );
+    --gradient-card: linear-gradient(
+      145deg,
+      hsl(0 0% 100%) 0%,
+      hsl(220 13% 98%) 100%
+    );
+
     /* Shadows */
     --shadow-soft: 0 2px 10px hsl(217 91% 15% / 0.1);
     --shadow-medium: 0 8px 30px hsl(217 91% 15% / 0.12);
